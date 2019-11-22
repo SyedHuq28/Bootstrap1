@@ -1,0 +1,94 @@
+body{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.navbar{
+	background: linear-gradient(to right, #00867d, #0090a0);
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.navbar .navbar-brand .i{
+	width: 35%;
+}
+.navbar .nav-item{
+
+
+}
+.navbar .nav-item .nav-link{
+	color: #fff /*!important*/;
+}
+.navbar .nav-item.active .nav-link{
+	color: #FFC79E; /*!important*/
+}
+.navbar .nav-item .nav-link:hover{
+	color: #FFC79E;/*!important*/
+}
+.btn-signup{
+	background: #00c29e;
+	color:#fff;
+	padding-left: 14px !important;
+	padding-right: 14px !important;
+	padding-top: 8px;
+	margin-top: -9px;
+	padding-bottom: 7px;
+	border-radius: 5px;
+}
+.btn-signup:hover{
+	color: #FFC79E;
+}
+.h1, h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.hero {
+	color: #fff;
+	
+	text-align: center;
+}
+.hero .high{
+	font-weight: 400; 
+}
+.banner{
+	background:url(../image/hero_image.png);
+	background-size: cover;
+	background-position: center;
+	
+}
+.banner .row{
+	min-height: 600px;
+}
+
+.btn{
+color: #fff !important;
+border: 1px solid #fff !important;
+border-radius: 5px !important;
+padding: 8px 20px !important;
+margin: 15px 10px !important;
+}
+.btn-cta:hover, .btn-ghost:hover{
+color: #00909f !important;
+background: #fff;
+}
+.btn-cta{
+	background: #00909f;
+}
+.card img{
+
+    vertical-align: middle;
+    border-style: none;
+    width: 30%;
+    margin: 0 auto;
+}
+.card{
+	text-align: center;
+}
+.card-title {
+    margin-bottom: .75rem;
+    font-size: 94%;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    font-size: 86%;
+}
